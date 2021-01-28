@@ -28,6 +28,4 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
-- task: WhiteSource@20
-  inputs:
-    cwd: '$(System.DefaultWorkingDirectory)'
+- task: WhiteSource@20 
